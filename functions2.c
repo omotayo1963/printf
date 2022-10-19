@@ -34,7 +34,7 @@ num_addrs = (unsigned long)addrs;
 while (num_addrs > 0)
 {
 buffer[ind--] = map_to[num_addrs % 16];
-um_addrs /= 16;
+num_addrs /= 16;
 length;
 }
 
